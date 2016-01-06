@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="hello-world" fetch="https://github.com/matt0526/hello-world.git" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="hello-world" revision="jb-dev"/>
+
+</manifest>
