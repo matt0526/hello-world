@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="hello-world" fetch="https://github.com/matt0526/hello-world.git" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="hello-world" revision="jb-dev"/>
+  <project path="uboot" name="matt0526/matt_uboot" remote="https://github.com/matt0526/matt_uboot.git" revision="master"/>
+  <project path="common" name="matt0526/matt_common" remote="https://github.com/matt0526/matt_common.git" revision="master"/>
 
 </manifest>
