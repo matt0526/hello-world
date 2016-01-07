@@ -2,7 +2,10 @@
 <manifest>
 
   <remote name="hello-world" fetch="https://github.com/matt0526/hello-world.git" />
-  <project path="uboot" name="matt0526/matt_uboot" remote="https://github.com/matt0526/matt_uboot.git" revision="master"/>
-  <project path="common" name="matt0526/matt_common" remote="https://github.com/matt0526/matt_common.git" revision="master"/>
+  <remote name="remote_uboot" fetch="https://github.com/matt0526/matt_uboot.git" />
+  <remote name="remote_common" fetch="https://github.com/matt0526/matt_common.git" />
+
+  <project path="uboot" name="matt0526/matt_uboot" remote="remote_uboot" revision="master"/>
+  <project path="common" name="matt0526/matt_common" remote="remote_common" revision="master"/>
 
 </manifest>
